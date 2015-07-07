@@ -1,1 +1,24 @@
-<gap:plugin name="InAppBrowser" value="org.apache.cordova.core.InAppBrowser" />
+
+
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.phonegap.tnm"
+    versionCode = "10"
+    version     = "0.0.4" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>TNM Calculator - Test</name>
+
+    <description>
+      Desc
+    </description>
+
+    <author href="https://github.com/pacpac64" email="paolo.crova@altrimedia.com">
+      Altrimedia
+    </author>
+
+    <!-- We'll include the Barcode plugin as an example -->
+    <gap:plugin name="InAppBrowser" value="org.apache.cordova.core.InAppBrowser" />
+</widget>
