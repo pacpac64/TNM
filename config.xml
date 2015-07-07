@@ -1,0 +1,2 @@
+<gap:plugin name="InAppBrowser" value="org.apache.cordova.core.InAppBrowser" />
+<gap:plugin name="HideBar" value="https://github.com/mesmotronic/cordova-fullscreen-plugin.git"/>
