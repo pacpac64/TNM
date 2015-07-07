@@ -1,11 +1,7 @@
 
 
 <?xml version="1.0" encoding="UTF-8" ?>
-    <widget xmlns   = "http://www.w3.org/ns/widgets"
-    xmlns:gap   = "http://phonegap.com/ns/1.0"
-    id          = "com.phonegap.tnm"
-    versionCode = "10"
-    version     = "0.0.4" >
+    <widget>
 
     <!-- versionCode is optional and Android only -->
 
@@ -15,7 +11,7 @@
       Desc
     </description>
 
-    <author href="https://github.com/pacpac64" email="paolo.crova@altrimedia.com">
+    <author>
       Altrimedia
     </author>
 
