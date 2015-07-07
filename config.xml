@@ -1,2 +1,1 @@
 <gap:plugin name="InAppBrowser" value="org.apache.cordova.core.InAppBrowser" />
-<gap:plugin name="HideBar" value="cordova-fullscreen-plugin"/>
