@@ -1,0 +1,84 @@
+#notes-list-app-page {
+	background: url(../img/page-2-3/14.jpg) top left no-repeat;
+	background-size: contain;
+	height:100%;
+	width:100%;
+}
+
+@media (device-aspect-ratio: 40/71), (device-aspect-ratio: 9/16),
+		(min-device-width: 375px) and (max-device-width: 667px) {
+	#notes-list-app-page { background-image: url(../img/page-9-16/14.jpg); }
+}
+
+#notes-list-app-page #add {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	padding: 0;
+	position: absolute;
+	top: 13%;
+	left: 85%;
+}
+
+#notes-list-app-page #notes-list {
+	width: 77%;
+	height: auto;
+	max-height: 64%;
+	padding-right: 2%;
+	position: absolute;
+	top: 23.5%;
+	left: 11%;
+	overflow:auto;
+}
+
+@media (device-aspect-ratio: 40/71), (device-aspect-ratio: 9/16),
+		(min-device-width: 375px) and (max-device-width: 667px) {
+	#notes-list-app-page #notes-list {
+		top: 24%;
+		left: 12%;
+	}
+}
+
+#notes-list-app-page .note-row {
+	margin-bottom: 4.9%;
+}
+
+@media (device-aspect-ratio: 40/71), (device-aspect-ratio: 9/16) { #notes-list-app-page .note-row { margin-bottom: 7.8%; } }
+@media (min-device-width: 375px) and (max-device-width: 667px) { #notes-list-app-page .note-row { margin-bottom: 9.5%; } }
+
+#notes-list-app-page .note-row:after {
+	display: block;
+	content: " ";
+	clear: both;
+}
+
+#notes-list-app-page .note-row a {
+	display: inline-block;
+	margin-top: 5px;
+	float: left;
+	color: #000;
+}
+
+@media (min-height:640px) {
+	
+}
+
+#notes-list-app-page .note-row button {
+	display: inline-block;
+	width: 16px;
+	height: 23px;
+	float: right;
+	background: url("../img/icon/bin.png") no-repeat;
+	background-size: 16px 23px;
+}
+
+@media (device-aspect-ratio: 40/71), (device-aspect-ratio: 9/16),
+		(min-device-width: 375px) and (max-device-width: 667px) {
+	#notes-list-app-page #add {
+		left: 85%;
+	}
+}
+
+@media  (min-height:640px) and (device-aspect-ratio: 40/71) , (min-height:640px) and (device-aspect-ratio: 9/16) {
+	
+}

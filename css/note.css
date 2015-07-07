@@ -1,0 +1,91 @@
+#note-app-page {
+	background: url(../img/page-2-3/15.jpg) top left no-repeat;
+	background-size: contain;
+	height:100%;
+	width:100%;
+}
+
+@media (device-aspect-ratio: 40/71), (device-aspect-ratio: 9/16),
+		(min-device-width: 375px) and (max-device-width: 667px) {
+	#note-app-page { background-image: url(../img/page-9-16/15.jpg); }
+}
+
+#note-app-page #cancel,
+#note-app-page #save {
+	width: 50px;
+	height: 40px;
+	padding: 0;
+	position: absolute;
+	top: 13%;
+}
+
+@media (device-aspect-ratio: 40/71), (device-aspect-ratio: 9/16),
+		(min-device-width: 375px) and (max-device-width: 667px) {
+	#note-app-page #cancel,
+	#note-app-page #save {
+		width: 55px;
+	}
+}
+
+#note-app-page #cancel {
+	left: 0;
+}
+
+@media (device-aspect-ratio: 40/71), (device-aspect-ratio: 9/16),
+		(min-device-width: 375px) and (max-device-width: 667px) {
+	#note-app-page #cancel {
+		left: 2%;
+	}
+}
+
+#note-app-page #save {
+	left: 80%;
+}
+
+@media (device-aspect-ratio: 40/71), (device-aspect-ratio: 9/16),
+		(min-device-width: 375px) and (max-device-width: 667px) {
+	#note-app-page #save {
+		left: 80%;
+	}
+}
+
+#note-app-page #text,
+.is-not-mobile #note-app-page #text {
+	width: 81%;
+	height: 63%;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 22.5%;
+	left: 10%;
+	line-height: 2.25em;
+	color: #000;
+	background: transparent;
+	resize: none;
+	outline: none;
+	overflow: auto;
+}
+
+/*@media (min-height:640px) {
+	#note-app-page #text {
+		line-height: 2.5em;
+	}
+}*/
+
+@media (device-aspect-ratio: 40/71), (device-aspect-ratio: 9/16),
+		(min-device-width: 375px) and (max-device-width: 667px) {
+	#note-app-page #text {
+		width: 85%;
+		top: 22.5%;
+		left: 8%;
+	}
+}
+
+@media (device-aspect-ratio: 40/71), (device-aspect-ratio: 9/16) { #note-app-page #text { line-height: 2.7em; } }
+@media (min-device-width: 375px) and (max-device-width: 667px) { #note-app-page #text { line-height: 3.15em; } }
+
+@media  (min-height:640px) and (device-aspect-ratio: 40/71) , (min-height:640px) and (device-aspect-ratio: 9/16) {
+	#note-app-page #text {
+		line-height: 2.8em;
+	}
+}

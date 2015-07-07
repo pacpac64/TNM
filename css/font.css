@@ -1,0 +1,37 @@
+/*=== rotis sans serif ===*/
+
+@font-face {
+	font-family: "RotisSansSerif";
+	src: url("../font/RotisSansSerif.woff");
+}
+
+@font-face {
+	font-family: "RotisSansSerif-Italic";
+	src: url("../font/RotisSansSerif-Italic.woff");
+	font-style: italic, oblique;
+}
+
+@font-face {
+	font-family: "RotisSansSerif-Bold";
+	src: url("../font/RotisSansSerif-Bold.woff");
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "RotisSansSerif-ExtraBold";
+	src: url("../font/RotisSansSerif-ExtraBold.woff");
+	font-weight: 800;
+}
+
+@font-face {
+	font-family: "RotisSansSerif-Light";
+	src: url("../font/RotisSansSerif-Light.woff");
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "RotisSansSerif-LightItalic";
+	src: url("../font/RotisSansSerif-LightItalic.woff");
+	font-weight: 300;
+	font-style: italic, oblique;
+}

@@ -1,0 +1,26 @@
+/* https://stackoverflow.com/questions/22672368/how-to-make-a-transparent-html-button#22672444 */
+.transparent-btn {
+	background:none;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+select {
+-webkit-appearance: none;
+-moz-appearance: none;
+-ms-appearance: none;
+-o-appearance: none;
+appearance: none;
+text-overflow: ''; /* this is important! */
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    border-style: none;
+	}
+select::-ms-expand {
+    display: none;
+}

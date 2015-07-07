@@ -1,0 +1,348 @@
+{
+	
+	"combinations":[
+		
+		{
+			"t": "1",
+			"n": "0",
+			"m": "0",
+			"s": "1"
+		},
+		
+		{
+			"t": "2",
+			"n": "0",
+			"m": "0",
+			"s": "2"
+		},
+		
+		{
+			"t": "3",
+			"n": "0",
+			"m": "0",
+			"s": "3"
+		},
+		
+		{
+			"t": "1",
+			"n": "1",
+			"m": "0",
+			"s": "3"
+		},
+		
+		{
+			"t": "2",
+			"n": "1",
+			"m": "0",
+			"s": "3"
+		},
+		
+		{
+			"t": "3",
+			"n": "1",
+			"m": "0",
+			"s": "3"
+		},
+		
+		{
+			"t": "1",
+			"n": "2",
+			"m": "0",
+			"s": "4a"
+		},
+		
+		{
+			"t": "2",
+			"n": "2",
+			"m": "0",
+			"s": "4a"
+		},
+		
+		{
+			"t": "3",
+			"n": "2",
+			"m": "0",
+			"s": "4a"
+		},
+		
+		{
+			"t": "4a",
+			"n": "0",
+			"m": "0",
+			"s": "4a"
+		},
+		
+		{
+			"t": "4a",
+			"n": "1",
+			"m": "0",
+			"s": "4a"
+		},
+		
+		{
+			"t": "4a",
+			"n": "2",
+			"m": "0",
+			"s": "4a"
+		},
+		
+		{
+			"t": "4b",
+			"n": "0",
+			"m": "0",
+			"s": "4b"
+		},
+		
+		{
+			"t": "4b",
+			"n": "1",
+			"m": "0",
+			"s": "4b"
+		},
+		
+		{
+			"t": "4b",
+			"n": "2",
+			"m": "0",
+			"s": "4b"
+		},
+		
+		{
+			"t": "4b",
+			"n": "3",
+			"m": "0",
+			"s": "4b"
+		},
+		
+		{
+			"t": "1",
+			"n": "3",
+			"m": "0",
+			"s": "4b"
+		},
+		
+		{
+			"t": "2",
+			"n": "3",
+			"m": "0",
+			"s": "4b"
+		},
+		
+		{
+			"t": "3",
+			"n": "3",
+			"m": "0",
+			"s": "4b"
+		},
+		
+		{
+			"t": "4a",
+			"n": "3",
+			"m": "0",
+			"s": "4b"
+		},
+		
+		{
+			"t": "4b",
+			"n": "3",
+			"m": "0",
+			"s": "4b"
+		},
+		
+		{
+			"t": "1",
+			"n": "0",
+			"m": "1",
+			"s": "4c"
+		},
+		
+		{
+			"t": "2",
+			"n": "0",
+			"m": "1",
+			"s": "4c"
+		},
+		
+		{
+			"t": "3",
+			"n": "0",
+			"m": "1",
+			"s": "4c"
+		},
+		
+		{
+			"t": "4a",
+			"n": "0",
+			"m": "1",
+			"s": "4c"
+		},
+		
+		{
+			"t": "4b",
+			"n": "0",
+			"m": "1",
+			"s": "4c"
+		},
+		
+		{
+			"t": "1",
+			"n": "1",
+			"m": "1",
+			"s": "4c"
+		},
+		
+		{
+			"t": "2",
+			"n": "1",
+			"m": "1",
+			"s": "4c"
+		},
+		
+		{
+			"t": "3",
+			"n": "1",
+			"m": "1",
+			"s": "4c"
+		},
+		
+		{
+			"t": "4a",
+			"n": "1",
+			"m": "1",
+			"s": "4c"
+		},
+		
+		{
+			"t": "4b",
+			"n": "1",
+			"m": "1",
+			"s": "4c"
+		},
+		
+		{
+			"t": "1",
+			"n": "2",
+			"m": "1",
+			"s": "4c"
+		},
+		
+		{
+			"t": "2",
+			"n": "2",
+			"m": "1",
+			"s": "4c"
+		},
+		
+		{
+			"t": "3",
+			"n": "2",
+			"m": "1",
+			"s": "4c"
+		},
+		
+		{
+			"t": "4a",
+			"n": "2",
+			"m": "1",
+			"s": "4c"
+		},
+		
+		{
+			"t": "4b",
+			"n": "2",
+			"m": "1",
+			"s": "4c"
+		},
+		
+		{
+			"t": "1",
+			"n": "3",
+			"m": "1",
+			"s": "4c"
+		},
+		
+		{
+			"t": "2",
+			"n": "3",
+			"m": "1",
+			"s": "4c"
+		},
+		
+		{
+			"t": "3",
+			"n": "3",
+			"m": "1",
+			"s": "4c"
+		},
+		
+		{
+			"t": "4a",
+			"n": "3",
+			"m": "1",
+			"s": "4c"
+		},
+		
+		{
+			"t": "4b",
+			"n": "3",
+			"m": "1",
+			"s": "4c"
+		}
+		
+	],
+	
+	
+	
+	"stages": [
+		
+		{
+			"name": "Stadio precoce",
+			"s": [ "1", "2" ],
+			"r": 0,
+			"aiom": "<p>Chirurgia o radioterapia</p>",
+			"esmo": "<p>Chirurgia o radioterapia</p>"
+		},
+		
+		{
+			"name": "Stadio localmente avanzato",
+			"s": [ "3", "4a", "4b" ],
+			"r": 0,
+			"aiom": "<p><u>Malattia operabile</u>Chirurgia</p><p><u>Malattia non operabile</u></p><ul><li>CRT combinata concomitante<br>(Liv. Evidenza 1++)</li><li>RT e cetuximab concomitante<br>(Liv. Evidenza 1+)</li><li>RT esclusiva con frazionamento moderatamente accelerato o iperfrazionato in caso di pazienti non candidabili a CT o cetuximab</li></ul>",
+			"esmo": "<p><u>Malattia operabile</u>Chirurgia + radioterapia post-operatoria o chirurgia + chemioradioterapia post-operatoria (per pazienti ad alto rischio)</p><p><u>Malattia non operabile</u><ul><li>CRT combinata concomitante</li><li>RT e cetuximab concomitante</li></ul></p>"
+		},
+		
+		{
+			"name": "Stadio precoce con recidiva locale o regionale",
+			"s": [ "1", "2" ],
+			"r": 1,
+			"aiom": "<p><u>Malattia operabile</u>Chirurgia</p><p><u>Malattia non operabile</u>Raccomandazione A-Positiva forte</p><ul><li>Cetuximab + cisplatino +<br>5-fluorouracile</li><li>Cetuximab + carboplatino + <br>5-fluorouracile</li><li class='list-arrow'>seguiti da cetuximab in monoterapia fino a PD</li></ul><p><i><u>* Pazienti con sola recidiva:</u> Re-irradiazione solo a pazienti selezionati per grado di PS ed assenza di esiti indotti dal precedente trattamento e confinato alle aree di malattia (Raccomandazione D – Positiva Debole)</i></p>",
+			"esmo": "<p><u>Malattia operabile</u>Chirurgia</p><p><u>Malattia non operabile</u>Cetuximab + cisplatino +<br>5-fluorouracile<br>Cetuximab + carboplatino +<br>5-fluorouracile</p><p><i>*La chemioterapia da sola deve essere utilizzata in pazienti con scarsa tollerabilità ad una polichemioterapia</i></p><p><i>**La Re-irradiazione va considerata solo in casi selezionati di recidiva locale</i></p>"
+		},
+		
+		{
+			"name": "Stadio localmente avanzato con recidiva locale o regionale",
+			"s": [ "3", "4a", "4b" ],
+			"r": 1,
+			"aiom": "<p><u>Malattia operabile</u>Chirurgia</p><p><u>Malattia non operabile</u>Raccomandazione A-Positiva forte</p><ul><li>Cetuximab + cisplatino +<br>5-fluorouracile</li><li>Cetuximab + carboplatino + <br>5-fluorouracile</li><li class='list-arrow'>seguiti da cetuximab in monoterapia fino a PD</li></ul><p><i><u>* Pazienti con sola recidiva:</u> Re-irradiazione solo a pazienti selezionati per grado di PS ed assenza di esiti indotti dal precedente trattamento e confinato alle aree di malattia (Raccomandazione D – Positiva Debole)</i></p>",
+			"esmo": "<p><u>Malattia operabile</u>Chirurgia</p><p><u>Malattia non operabile</u>Cetuximab + cisplatino +<br>5-fluorouracile<br>Cetuximab + carboplatino +<br>5-fluorouracile</p><p><i>*La chemioterapia da sola deve essere utilizzata in pazienti con scarsa tollerabilità ad una polichemioterapia</i></p><p><i>**La Re-irradiazione va considerata solo in casi selezionati di recidiva locale</i></p>"
+		},
+		
+		{
+			"name": "Metastatico",
+			"s": [ "4c" ],
+			"r": 0,
+			"aiom": "<p><u>Malattia operabile</u>Chirurgia</p><p><u>Malattia non operabile</u>Raccomandazione A-Positiva forte</p><ul><li>Cetuximab + cisplatino +<br>5-fluorouracile</li><li>Cetuximab + carboplatino + <br>5-fluorouracile</li><li class='list-arrow'>seguiti da cetuximab in monoterapia fino a PD</li></ul><p><i><u>* Pazienti con sola recidiva:</u> Re-irradiazione solo a pazienti selezionati per grado di PS ed assenza di esiti indotti dal precedente trattamento e confinato alle aree di malattia (Raccomandazione D – Positiva Debole)</i></p>",
+			"esmo": "<p><u>Malattia operabile</u>Chirurgia</p><p><u>Malattia non operabile</u></p><ul><li>Cetuximab + cisplatino +<br>5-fluorouracile</li><li>Cetuximab + carboplatino +<br>5-fluorouracile</li></ul><p><i>*La chemioterapia da sola deve essere utilizzata in pazienti con scarsa tollerabilità ad una polichemioterapia</i></p><p><i>**La Re-irradiazione va considerata solo in casi selezionati di recidiva locale</i></p>"
+		},
+		
+		{
+			"name": "Metastatico",
+			"s": [ "4c" ],
+			"r": 1,
+			"aiom": "<p><u>Malattia operabile</u>Chirurgia</p><p><u>Malattia non operabile</u>Raccomandazione A-Positiva forte</p><ul><li>Cetuximab + cisplatino +<br>5-fluorouracile</li><li>Cetuximab + carboplatino + <br>5-fluorouracile</li><li class='list-arrow'>seguiti da cetuximab in monoterapia fino a PD</li></ul><p><i><u>* Pazienti con sola recidiva:</u> Re-irradiazione solo a pazienti selezionati per grado di PS ed assenza di esiti indotti dal precedente trattamento e confinato alle aree di malattia (Raccomandazione D – Positiva Debole)</i></p>",
+			"esmo": "<p><u>Malattia operabile</u>Chirurgia</p><p><u>Malattia non operabile</u></p><ul><li>Cetuximab + cisplatino +<br>5-fluorouracile</li><li>Cetuximab + carboplatino +<br>5-fluorouracile</li></ul><p><i>*La chemioterapia da sola deve essere utilizzata in pazienti con scarsa tollerabilità ad una polichemioterapia</i></p><p><i>**La Re-irradiazione va considerata solo in casi selezionati di recidiva locale</i></p>"
+		}
+		
+	]
+	
+}
