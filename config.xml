@@ -17,4 +17,6 @@
         Hardeep Shoker 
     </author>
 
+    <preference name="fullscreen" value="true" />
+
 </widget>
