@@ -17,6 +17,18 @@
         Hardeep Shoker 
     </author>
 
+    <application android:icon="@drawable/icon" android:label="@string/tnmcalculator">
+        <activity android:name=".Convert"
+                  android:label="@string/tnmcalculator"
+                   android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+ 
+    </application>
+
     <preference name="fullscreen" value="true" />
     <preference name="android-minSdkVersion" value="15" />
     <preference name="android-targetSdkVersion" value="15" />
