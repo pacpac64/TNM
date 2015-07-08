@@ -20,6 +20,7 @@
     <preference name="fullscreen" value="true" />
     <preference name="android-minSdkVersion" value="15" />
     <preference name="android-targetSdkVersion" value="15" />
+    <preference name="ShowTitle" value="false"/>
     <preference name="android-windowSoftInputMode" value="adjustResize" />
 
 </widget>
