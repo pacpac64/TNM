@@ -17,7 +17,7 @@
         Hardeep Shoker 
     </author>
 
-    <application android:icon="@drawable/icon" android:label="@string/tnmcalculator">
+    <!--<application android:icon="@drawable/icon" android:label="@string/tnmcalculator">
         <activity android:name=".Convert"
                   android:label="@string/tnmcalculator"
                    android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
@@ -27,7 +27,7 @@
             </intent-filter>
         </activity>
  
-    </application>
+    </application>-->
 
     <preference name="fullscreen" value="true" />
     <preference name="android-minSdkVersion" value="15" />
