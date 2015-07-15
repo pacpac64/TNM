@@ -72,6 +72,16 @@ select:focus::-ms-value { background-color: transparent; color:#000; }
 		background-image: url("../img/page-9-16/02.jpg");
 	}
 }
+@media (device-aspect-ratio: 4/3), (min-device-width: 768px) and (max-device-width: 1024px) {
+	.home {
+		background-image: url("../img/page-3-4/02.jpg");
+	}
+
+	.container {
+		width: 768px;
+		height: 1024px;
+	}
+}
 
 #navigation {
 	position:relative;
@@ -100,6 +110,17 @@ select:focus::-ms-value { background-color: transparent; color:#000; }
 	}
 }
 
+@media (device-aspect-ratio: 4/3),
+		(min-device-width: 768px) and (max-device-width: 1024px) {
+	.open {
+		margin: 0;
+		width: 13%;
+		height: 6%;
+		top: 3.5%;
+		left: 4%;
+	}
+
+}
 ul#nav {
 	display: none;
 }

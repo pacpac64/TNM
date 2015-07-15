@@ -9,6 +9,9 @@
 		(min-device-width: 375px) and (max-device-width: 667px) {
 	#notes-list-app-page { background-image: url(../img/page-9-16/14.jpg); }
 }
+@media (device-aspect-ratio: 4/3), (min-device-width: 768px) and (max-device-width: 1024px) {
+	#notes-list-app-page { background-image: url(../img/page-3-4/14.jpg); }
+}
 
 #notes-list-app-page #add {
 	display: inline-block;
@@ -46,6 +49,10 @@
 @media (device-aspect-ratio: 40/71), (device-aspect-ratio: 9/16) { #notes-list-app-page .note-row { margin-bottom: 7.8%; } }
 @media (min-device-width: 375px) and (max-device-width: 667px) { #notes-list-app-page .note-row { margin-bottom: 9.5%; } }
 
+@media (device-aspect-ratio: 4/3), (min-device-width: 768px) and (max-device-width: 1024px) {
+	#notes-list-app-page .note-row { margin-bottom: 4.9%; }
+}
+
 #notes-list-app-page .note-row:after {
 	display: block;
 	content: " ";
@@ -80,5 +87,20 @@
 }
 
 @media  (min-height:640px) and (device-aspect-ratio: 40/71) , (min-height:640px) and (device-aspect-ratio: 9/16) {
-	
+		
+}
+
+@media (device-aspect-ratio: 4/3), (min-device-width: 768px) and (max-device-width: 1024px) {
+	#notes-list-app-page #add {
+	  width: 10%;
+	  height: 7%;
+	  left: 87%;
+	}
+	#notes-list-app-page #notes-list {
+		line-height: 2.73em;
+		width: 81%;
+		top: 24.5%;
+		left: 10%;
+		font-size: 1.7em;
+	}
 }

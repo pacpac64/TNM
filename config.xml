@@ -35,4 +35,6 @@
     <preference name="ShowTitle" value="false"/>
     <preference name="android-windowSoftInputMode" value="adjustResize" />
 
+    <gap:plugin name="com.mesmotronic.plugins.fullscreen" source="npm" />
+
 </widget>

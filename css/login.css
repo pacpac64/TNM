@@ -5,11 +5,6 @@
 	width:100%;
 }
 
-@media (device-aspect-ratio: 40/71), (device-aspect-ratio: 9/16),
-		(min-device-width: 375px) and (max-device-width: 667px) {
-	#login-app-page { background-image: url(../img/page-9-16/01.jpg); }
-}
-
 #login-app-page #pwd {
 	width: 70%;
 	height: 5%;
@@ -31,4 +26,27 @@
 	position: absolute;
 	left: 30%;
 	cursor: pointer;
+}
+
+
+@media (device-aspect-ratio: 40/71), (device-aspect-ratio: 9/16),
+		(min-device-width: 375px) and (max-device-width: 667px) {
+	#login-app-page { background-image: url(../img/page-9-16/01.jpg); }
+}
+@media (device-aspect-ratio: 4/3),
+		(min-device-width: 768px) and (max-device-width: 1024px) {
+	#login-app-page { background-image: url(../img/page-3-4/01.jpg); }
+
+	#login-app-page #pwd {
+	  width: 60.3%;
+	  left: 19.9%;
+	  top: 72%;
+	}
+
+	#login-app-page #submit {
+	  width: 195px;
+	  top: 77.8%;
+	  left: 36.7%;
+	}
+
 }

@@ -19,7 +19,10 @@
 	#show-results-app-page #page-content[data-app-bg-calc="tnm"] { background-image: url("../img/page-9-16/04.jpg"); }
 	#show-results-app-page #page-content[data-app-bg-calc="stad"] { background-image: url("../img/page-9-16/08.jpg"); }
 }
-
+@media (device-aspect-ratio: 4/3), (min-device-width: 768px) and (max-device-width: 1024px) {
+	#show-results-app-page #page-content[data-app-bg-calc="tnm"] { background-image: url("../img/page-3-4/04.jpg"); }
+	#show-results-app-page #page-content[data-app-bg-calc="stad"] { background-image: url("../img/page-3-4/08.jpg"); }
+}
 #show-results-app-page #back-btn {
 	width: 12%;
 	height: 7%;
@@ -121,10 +124,20 @@
 		(min-device-width: 375px) and (max-device-width: 667px) {
 			
 			#show-results-app-page #choice-tab .stage-num {
-				top: 8.7%;
+				top: 8%;
+			}
+			#show-results-app-page #choice-tab .stage-descr {
+				top: 21%;
+			}
+}
+@media (device-aspect-ratio: 4/3), (min-device-width: 768px) and (max-device-width: 1024px) {
+
+			#show-results-app-page #choice-tab .stage-num {
+				top: 10%;
 			}
 			#show-results-app-page #choice-tab .stage-descr {
 				top: 23%;
+				font-size: 1.1em;
 			}
 }
 
@@ -162,6 +175,19 @@
 		background-size: contain;
 	}
 }
+@media (device-aspect-ratio: 4/3), (min-device-width: 768px) and (max-device-width: 1024px) {
+
+	#show-results-app-page #page-content[data-app-bg-calc="tnm"] #aiom-tab{
+		background: url('../img/page-3-4/05.jpg') bottom left no-repeat;
+		background-size: contain;
+	}
+	#show-results-app-page #page-content[data-app-bg-calc="stad"] #aiom-tab{
+		background: url('../img/page-3-4/09.jpg') bottom left no-repeat;
+		background-size: contain;
+	}
+
+}
+
 #show-results-app-page #aiom-tab .stage-num{
 	position: absolute;
 	top: 4%;
@@ -207,6 +233,21 @@
 			height: 49%;
 		}	
 }
+@media (device-aspect-ratio: 4/3), (min-device-width: 768px) and (max-device-width: 1024px) {
+
+		#show-results-app-page #aiom-tab .stage-num {
+			top: 10%;
+		}
+
+		#show-results-app-page #aiom-tab .stage-descr {
+			top: 18.5%;
+			font-size: 1.1em;
+		}
+
+		#show-results-app-page #aiom-tab #aiom-line-guide {
+			height: 48%;
+		}	
+}
 
 #show-results-app-page #aiom-tab #aiom-line-guide p {
 	margin-bottom: 5%;
@@ -239,6 +280,12 @@
 
 @media (device-aspect-ratio: 40/71), (device-aspect-ratio: 9/16),
 		(min-device-width: 375px) and (max-device-width: 667px) {
+	#show-results-app-page #aiom-tab #aiom-line-guide p {
+		margin-bottom: 6%;
+	}
+}
+@media (device-aspect-ratio: 4/3), (min-device-width: 768px) and (max-device-width: 1024px) {
+
 	#show-results-app-page #aiom-tab #aiom-line-guide p {
 		margin-bottom: 6%;
 	}
@@ -278,6 +325,19 @@
 		background-size: contain;
 	}
 }
+
+@media (device-aspect-ratio: 4/3), (min-device-width: 768px) and (max-device-width: 1024px) {
+
+	#show-results-app-page #page-content[data-app-bg-calc="tnm"] #esmo-tab{
+		background: url('../img/page-3-4/06.jpg') bottom left no-repeat;
+		background-size: contain;
+	}
+	#show-results-app-page #page-content[data-app-bg-calc="stad"] #esmo-tab{
+		background: url('../img/page-3-4/10.jpg') bottom left no-repeat;
+		background-size: contain;
+	}
+}
+
 #show-results-app-page #esmo-tab .stage-num{
 	position: absolute;
 	top: 4%;
@@ -298,15 +358,7 @@
 	text-align: center;
 	color: #fff;
 }
-@media (device-aspect-ratio: 40/71), (device-aspect-ratio: 9/16),
-		(min-device-width: 375px) and (max-device-width: 667px) {
-		#show-results-app-page #esmo-tab .stage-descr {
-			top: 15.5%;
-		}
-		#show-results-app-page #esmo-tab #esmo-line-guide {
-			height: 50%;
-		}	
-}
+
 #show-results-app-page #esmo-tab #esmo-line-guide{
 	position: absolute;
 	top: 41%;
@@ -353,9 +405,42 @@
 
 @media (device-aspect-ratio: 40/71), (device-aspect-ratio: 9/16),
 		(min-device-width: 375px) and (max-device-width: 667px) {
+		#show-results-app-page #esmo-tab .stage-descr {
+			top: 15.5%;
+		}
+		#show-results-app-page #esmo-tab #esmo-line-guide {
+			height: 50%;
+		}	
+}
+
+@media (device-aspect-ratio: 4/3), (min-device-width: 768px) and (max-device-width: 1024px) {
+	#show-results-app-page #esmo-tab .stage-descr {
+			top: 18.3%;
+  			font-size: 1.1em;
+		}
+		#show-results-app-page #esmo-tab #esmo-line-guide, #show-results-app-page #aiom-tab #aiom-line-guide {
+			height: 52%;
+			top: 37%;
+			left: 5%;
+			width: 90%;
+			font-size: 1.5em;
+		}
+		#show-results-app-page #esmo-tab .stage-num {
+			top: 10%;
+		}
+}
+
+@media (device-aspect-ratio: 40/71), (device-aspect-ratio: 9/16),
+		(min-device-width: 375px) and (max-device-width: 667px) {
 	#show-results-app-page #esmo-tab #esmo-line-guide{
 		height: 49%;
 	}
+}
+
+@media (device-aspect-ratio: 4/3), (min-device-width: 768px) and (max-device-width: 1024px) {
+	/*#show-results-app-page #esmo-tab #esmo-line-guide{
+		height: 48%;
+	}*/
 }
 
 #show-results-app-page #esmo-tab .close-popup-btn{
@@ -366,4 +451,46 @@
 	height: 12%;
 	margin: 0;
 	padding: 0;
+}
+
+@media (device-aspect-ratio: 4/3), (min-device-width: 768px) and (max-device-width: 1024px) {
+
+	#show-results-app-page #t,
+	#show-results-app-page #n,
+	#show-results-app-page #m {
+		font-size: 1.4em;
+	}
+
+	#show-results-app-page #t{
+		top: 30.5%;
+		width: 22%;
+		left: 15%;
+	}
+	#show-results-app-page #n{
+		top: 30.5%;
+		width: 22%;
+	}
+	#show-results-app-page #m{
+		top: 30.5%;
+		width: 22%;
+		left: 64%;
+	}
+	#show-results-app-page #rlr {
+		top: 43.2%;
+		left: 62.5%;
+	}
+	#show-results-app-page #choice-tab .line-guide-btn[data-app-tab-name="aiom"] {
+		top: 56.5%;
+		left: 13%;
+	}
+	#show-results-app-page #choice-tab .line-guide-btn[data-app-tab-name="esmo"]{
+		top: 56.5%;
+		left: 53.8%;
+	}
+	#show-results-app-page #esmo-tab #esmo-line-guide p {
+		font-size: 1em;
+	}
+	#show-results-app-page #aiom-tab #aiom-line-guide p {
+		font-size: 1em;
+	}
 }

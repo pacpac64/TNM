@@ -9,6 +9,10 @@
 		(min-device-width: 375px) and (max-device-width: 667px) {
 	#calc-tnm-app-page { background-image: url(../img/page-9-16/03.jpg); }
 }
+@media (device-aspect-ratio: 4/3),
+		(min-device-width: 768px) and (max-device-width: 1024px) {
+	#calc-tnm-app-page { background-image: url(../img/page-3-4/03.jpg); }
+}
 
 #calc-tnm-app-page select {
 	position: absolute;
@@ -28,11 +32,6 @@
 #calc-tnm-app-page #n-text	{ width: 57%; top: 61%; }
 
 
-@media (device-aspect-ratio: 40/71), (device-aspect-ratio: 9/16),
-		(min-device-width: 375px) and (max-device-width: 667px) {
-	#calc-tnm-app-page #t-dim	{ width: 25%; }
-	#calc-tnm-app-page #n-text	{ width: 57%; }
-}
 
 #calc-tnm-app-page input[type="radio"] {
 	opacity: 0;
@@ -71,3 +70,23 @@
 
 #calc-tnm-app-page #submit { left: 6%; }
 #calc-tnm-app-page #reset { left: 60%; }
+
+@media (device-aspect-ratio: 40/71), (device-aspect-ratio: 9/16),
+		(min-device-width: 375px) and (max-device-width: 667px) {
+	#calc-tnm-app-page #t-dim	{ width: 25%; }
+	#calc-tnm-app-page #n-text	{ width: 57%; }
+}
+@media (device-aspect-ratio: 4/3), (min-device-width: 768px) and (max-device-width: 1024px) {
+	#calc-tnm-app-page #t-dim	{   width: 19%; top: 29%; right: 6%; }
+	#calc-tnm-app-page #t-ext	{   width: 40%; top: 42.4%; right: 6%; padding-left: 1%; }
+	#calc-tnm-app-page #n-text	{ width: 44%;  right: 6%; }
+	#calc-tnm-app-page #submit {
+		left: 12%;
+	}
+	#calc-tnm-app-page #reset {
+		left: 54%;
+	}
+	#calc-tnm-app-page select {
+		font-size: 1.2em;
+	}
+}

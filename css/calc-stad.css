@@ -9,6 +9,10 @@
 		(min-device-width: 375px) and (max-device-width: 667px) {
 	#calc-stad-app-page { background-image: url(../img/page-9-16/07.jpg); }
 }
+@media (device-aspect-ratio: 4/3),
+		(min-device-width: 768px) and (max-device-width: 1024px) {
+	#calc-stad-app-page { background-image: url(../img/page-3-4/07.jpg); }
+}
 
 #calc-stad-app-page select {
 	position: absolute;
@@ -67,4 +71,29 @@
 	left: 32%;
 	margin: 0;
 	padding: 0;
+}
+
+@media (device-aspect-ratio: 4/3),(min-device-width: 768px) and (max-device-width: 1024px) {
+
+	#calc-stad-app-page select {
+		text-indent: 39%;
+		font-size: 1.5em;
+	}
+
+	#calc-stad-app-page select {
+		width: 20%;
+	}
+
+	#calc-stad-app-page #t {
+		left: 15.5%;
+	}
+
+	#calc-stad-app-page #n {
+		left: 40%;
+	}
+
+	#calc-stad-app-page #m {
+		left: 64.5%;
+	}
+
 }

@@ -9,6 +9,11 @@
 		(min-device-width: 375px) and (max-device-width: 667px) {
 	#note-app-page { background-image: url(../img/page-9-16/15.jpg); }
 }
+@media (device-aspect-ratio: 4/3),
+		(min-device-width: 768px) and (max-device-width: 1024px) {
+	#note-app-page { background-image: url(../img/page-3-4/15.jpg); }
+}
+
 
 #note-app-page #cancel,
 #note-app-page #save {
@@ -26,6 +31,13 @@
 		width: 55px;
 	}
 }
+@media (device-aspect-ratio: 4/3), (min-device-width: 768px) and (max-device-width: 1024px) {
+
+	#note-app-page #cancel,
+	#note-app-page #save {
+		width: 50px;
+	}
+}
 
 #note-app-page #cancel {
 	left: 0;
@@ -37,13 +49,17 @@
 		left: 2%;
 	}
 }
+@media (device-aspect-ratio: 4/3), (min-device-width: 768px) and (max-device-width: 1024px) {
+	#note-app-page #cancel {
+		left: 0%;
+	}
+}
 
 #note-app-page #save {
 	left: 80%;
 }
 
-@media (device-aspect-ratio: 40/71), (device-aspect-ratio: 9/16),
-		(min-device-width: 375px) and (max-device-width: 667px) {
+@media (device-aspect-ratio: 40/71), (device-aspect-ratio: 9/16), (min-device-width: 375px) and (max-device-width: 667px) {
 	#note-app-page #save {
 		left: 80%;
 	}
@@ -72,13 +88,20 @@
 	}
 }*/
 
-@media (device-aspect-ratio: 40/71), (device-aspect-ratio: 9/16),
-		(min-device-width: 375px) and (max-device-width: 667px) {
+@media (device-aspect-ratio: 40/71), (device-aspect-ratio: 9/16),(min-device-width: 375px) and (max-device-width: 667px) {
 	#note-app-page #text {
 		width: 85%;
 		top: 22.5%;
 		left: 8%;
 	}
+}
+@media (device-aspect-ratio: 4/3), (min-device-width: 768px) and (max-device-width: 1024px) {
+	/*#note-app-page #text {
+			width: 81%;
+			top: 22.5%;
+			left: 10%;
+		}
+	}*/
 }
 
 @media (device-aspect-ratio: 40/71), (device-aspect-ratio: 9/16) { #note-app-page #text { line-height: 2.7em; } }
@@ -87,5 +110,23 @@
 @media  (min-height:640px) and (device-aspect-ratio: 40/71) , (min-height:640px) and (device-aspect-ratio: 9/16) {
 	#note-app-page #text {
 		line-height: 2.8em;
+	}
+}
+
+@media (device-aspect-ratio: 4/3), (min-device-width: 768px) and (max-device-width: 1024px) {
+	#note-app-page #text {
+		line-height: 2.73em;
+		width: 81%;
+		top: 24.8%;
+		left: 10%;
+		font-size: 1.7em;
+		height: 61%;
+	}
+	#note-app-page #save {
+		left: 83%;
+	}
+	#note-app-page #cancel, #note-app-page #save {
+	  width: 15%;
+	  height: 7%;
 	}
 }
