@@ -1,0 +1,99 @@
+#calc-stad-app-page {
+	background: url(../img/page-2-3/07.jpg) top left no-repeat;
+	background-size: contain;
+	height:100%;
+	width:100%;
+}
+
+@media (device-aspect-ratio: 40/71), (device-aspect-ratio: 9/16),
+		(min-device-width: 375px) and (max-device-width: 667px) {
+	#calc-stad-app-page { background-image: url(../img/page-9-16/07.jpg); }
+}
+@media (device-aspect-ratio: 4/3),
+		(min-device-width: 768px) and (max-device-width: 1024px) {
+	#calc-stad-app-page { background-image: url(../img/page-3-4/07.jpg); }
+}
+
+#calc-stad-app-page select {
+	position: absolute;
+	width: 25%;
+	height: 5%;
+	top: 29%;
+	padding: 0;
+	margin: 0;
+	text-indent: 32%;
+}
+
+.firefox #calc-stad-app-page select { text-indent: 6%; }
+
+.mac-osx #calc-stad-app-page select {
+	text-indent: 38%;
+}
+
+@media (device-aspect-ratio: 40/71), (device-aspect-ratio: 9/16),
+		(min-device-width: 375px) and (max-device-width: 667px) {
+	#calc-stad-app-page select {
+		text-indent: 44%;
+		font-size: 1.1em;
+	}
+}
+
+#calc-stad-app-page #t	{ left: 6%; }
+#calc-stad-app-page #n	{ left: 38%; }
+#calc-stad-app-page #m	{ left: 70%; }
+
+#calc-stad-app-page input[name="rlr-val"] {
+	opacity: 0;
+}
+
+#calc-stad-app-page #rlr-val-switch {
+	position: absolute;
+	display: inline-block;
+	width: 27%;
+	height: 6%;
+	top: 41%;
+	right: 5%;
+	padding: 0;
+	margin: 0;
+	background-size: contain;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+#calc-stad-app-page #rlr-val-switch[data-radio-value="0"] { background-image: url("../img/switch/no-blu.png"); }
+#calc-stad-app-page #rlr-val-switch[data-radio-value="1"] { background-image: url("../img/switch/si-blu.png"); }
+
+#calc-stad-app-page #submit {
+	position: absolute;
+	width: 35%;
+	height: 6%;
+	top: 52%;
+	left: 32%;
+	margin: 0;
+	padding: 0;
+}
+
+@media (device-aspect-ratio: 4/3),(min-device-width: 768px) and (max-device-width: 1024px) {
+
+	#calc-stad-app-page select {
+		text-indent: 39%;
+		font-size: 1.5em;
+	}
+
+	#calc-stad-app-page select {
+		width: 20%;
+	}
+
+	#calc-stad-app-page #t {
+		left: 15.5%;
+	}
+
+	#calc-stad-app-page #n {
+		left: 40%;
+	}
+
+	#calc-stad-app-page #m {
+		left: 64.5%;
+	}
+
+}

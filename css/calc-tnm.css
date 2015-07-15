@@ -1,0 +1,92 @@
+#calc-tnm-app-page {
+	background: url(../img/page-2-3/03.jpg) top left no-repeat;
+	background-size: contain;
+	height:100%;
+	width:100%;
+}
+
+@media (device-aspect-ratio: 40/71), (device-aspect-ratio: 9/16),
+		(min-device-width: 375px) and (max-device-width: 667px) {
+	#calc-tnm-app-page { background-image: url(../img/page-9-16/03.jpg); }
+}
+@media (device-aspect-ratio: 4/3),
+		(min-device-width: 768px) and (max-device-width: 1024px) {
+	#calc-tnm-app-page { background-image: url(../img/page-3-4/03.jpg); }
+}
+
+#calc-tnm-app-page select {
+	position: absolute;
+	height: 5%;
+	right: 9%;
+	padding: 0;
+	margin: 0;
+	font-size: 0.65em;
+}
+
+.mac-osx #calc-tnm-app-page select {
+	text-indent: 5px;
+}
+
+#calc-tnm-app-page #t-dim	{ width: 25%; top: 29.5%; }
+#calc-tnm-app-page #t-ext	{ width: 50%; top: 43%; }
+#calc-tnm-app-page #n-text	{ width: 57%; top: 61%; }
+
+
+
+#calc-tnm-app-page input[type="radio"] {
+	opacity: 0;
+}
+
+#calc-tnm-app-page .radio-switch {
+	position: absolute;
+	display: inline-block;
+	width: 27%;
+	height: 6%;
+	right: 7%;
+	padding: 0;
+	margin: 0;
+	background-size: contain;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+#calc-tnm-app-page #m-val-switch { top: 73%; }
+#calc-tnm-app-page #rlr-val-switch { top: 82%; }
+
+#m-val-switch[data-radio-value="0"] { background-image: url("../img/switch/no-blu.png"); }
+#m-val-switch[data-radio-value="1"] { background-image: url("../img/switch/si-blu.png"); }
+#rlr-val-switch[data-radio-value="0"] { background-image: url("../img/switch/no-rosso.png"); }
+#rlr-val-switch[data-radio-value="1"] { background-image: url("../img/switch/si-rosso.png"); }
+
+#calc-tnm-app-page #submit,
+#calc-tnm-app-page #reset {
+	position: absolute;
+	width: 35%;
+	height: 6%;
+	top: 90%;
+	margin: 0;
+	padding: 0;
+}
+
+#calc-tnm-app-page #submit { left: 6%; }
+#calc-tnm-app-page #reset { left: 60%; }
+
+@media (device-aspect-ratio: 40/71), (device-aspect-ratio: 9/16),
+		(min-device-width: 375px) and (max-device-width: 667px) {
+	#calc-tnm-app-page #t-dim	{ width: 25%; }
+	#calc-tnm-app-page #n-text	{ width: 57%; }
+}
+@media (device-aspect-ratio: 4/3), (min-device-width: 768px) and (max-device-width: 1024px) {
+	#calc-tnm-app-page #t-dim	{   width: 19%; top: 29%; right: 6%; }
+	#calc-tnm-app-page #t-ext	{   width: 40%; top: 42.4%; right: 6%; padding-left: 1%; }
+	#calc-tnm-app-page #n-text	{ width: 44%;  right: 6%; }
+	#calc-tnm-app-page #submit {
+		left: 12%;
+	}
+	#calc-tnm-app-page #reset {
+		left: 54%;
+	}
+	#calc-tnm-app-page select {
+		font-size: 1.2em;
+	}
+}

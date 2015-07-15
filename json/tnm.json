@@ -1,0 +1,38 @@
+{
+	
+	"texts": {
+		
+		"t-dim": [
+			"< 2 cm",
+			"≥ 2 - 4 cm",
+			"> 4 cm"
+		],
+		
+		"t-ext": [
+			"Sì, estensione moderata",
+			"Sì, estensione avanzata",
+			"No"
+		],
+		
+		"n-text": [
+			"Nessuna metastasi regionale",
+			"Singola omolaterale ≤ 3 cm",
+			"Singola omolaterale > 3 - 6 cm",
+			"Multiple omolaterali ≤ 6 cm",
+			"Bilaterali o controlaterali ≤ 6 cm",
+			"Linfonodi > 6 cm"
+		],
+		
+		"m-val": [
+			"No",
+			"Sì"
+		],
+		
+		"rlr-val": [
+			"No",
+			"Sì"
+		]
+		
+	}
+	
+}

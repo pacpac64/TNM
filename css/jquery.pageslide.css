@@ -1,0 +1,78 @@
+#pageslide {
+    /* These styles MUST be included. Do not change. */
+    display: none;
+    position: absolute;
+    top: 0;
+	/*height: 480px;*/
+    z-index: 999999;
+    
+    /* Specify the width of your pageslide here */
+    width: 48%;
+    padding: 0;
+    
+    /* These styles are optional, and describe how the pageslide will look */
+    background-color:#D4D8ED;
+	border-right: 2px solid #2151B4;
+}
+
+
+#pageslide #nav li {
+	padding: 0;
+	border-bottom: 1px solid #E95C20;
+	display:block;
+	margin: 0;
+}
+
+#pageslide #nav li a {
+	border: none;
+	display: inline-block;
+	width: 100%;
+	padding: 20% 0;
+	padding-left: 13%;
+	color:#2151B4;
+	text-decoration:none;
+	font-size:0.9em;
+	background-color: #D4D8ED;
+	background-repeat: no-repeat;
+}
+
+@media (device-aspect-ratio: 40/71), (device-aspect-ratio: 9/16) {
+	#pageslide #nav li a {
+		padding: 24% 0 25% 0;
+		padding-left: 14%;
+		background-position-y: 10px;
+	}
+}
+
+@media (min-device-width: 375px) and (max-device-width: 667px) {
+	#pageslide #nav li a {
+		padding: 24% 0 25% 0;
+		padding-left: 14%;
+		background-position-y: 19px;
+	}
+}
+
+#pageslide #nav li a.item-home {border-left:9px solid #1D3D91; background-image: url(../img/icon/menu/home-icon.png); padding-left: 60px;}
+#pageslide #nav li a.item-calc-tnms{border-left:9px solid #E95C20; color:#fff; background-color:#2151B4; text-transform:uppercase; font-size:1em;}
+#pageslide #nav li a.item-calc-stnm {border-left:9px solid #1D3D91; color:#fff; background-color:#ED7D4C; text-transform:uppercase; font-size:1em;}
+#pageslide #nav li a.item-rcp {border-left:9px solid #E95C20; background-image: url(../img/icon/menu/rcp-icon.png); padding-left: 60px;}
+#pageslide #nav li a.item-biblio {border-left:9px solid #1D3D91; background-image: url(../img/icon/menu/biblio-icon.png); padding-left: 60px;}
+#pageslide #nav li a.item-note {border-left:9px solid #E95C20; background-image: url(../img/icon/menu/note-icon.png); padding-left: 60px;}
+
+
+@media (device-aspect-ratio: 40/71), (device-aspect-ratio: 9/16) { #pageslide { height: 576px; } }
+@media (min-device-width: 375px) and (max-device-width: 667px) { #pageslide { height: 667px; } }
+
+@media (device-aspect-ratio: 4/3),
+		(min-device-width: 768px) and (max-device-width: 1024px) {
+	#pageslide { height: 576px; }
+	#pageslide #nav li a {
+		font-size: 2em;
+	}
+	#pageslide #nav li a.item-calc-tnms, #pageslide #nav li a.item-calc-stnm {
+		font-size: 2.5em;
+	}
+	#pageslide #nav li a.item-home, #pageslide #nav li a.item-rcp, #pageslide #nav li a.item-biblio, #pageslide #nav li a.item-note {
+	  background-position: center left;
+	}
+}
